@@ -94,6 +94,8 @@ PRC focuses on positive class (Precision = TP/(TP+FP)), while ROC uses FPR which
 
 ## Brownie Points [5]
 
+![Brownie](https://tenor.com/view/brownie-points-gif-8254590584654661830.gif)
+
 **Additional Models:**
 - Random Forest: AUC 0.9903, AP 0.9531
 - XGBoost: AUC 0.9911, AP 0.9573 **(Best Overall)**
