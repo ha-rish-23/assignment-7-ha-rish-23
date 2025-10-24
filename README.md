@@ -18,7 +18,7 @@ Multi-class classification model evaluation on Statlog Landsat Satellite dataset
 
 ---
 
-## Part A: Data Preparation and Baseline
+## Part A: Data Preparation and Baseline [5]
 
 **Models Trained:**
 - K-Nearest Neighbors
@@ -34,7 +34,7 @@ Multi-class classification model evaluation on Statlog Landsat Satellite dataset
 
 ---
 
-## Part B: ROC Analysis
+## Part B: ROC Analysis [20]
 
 **1. Multi-Class ROC Calculation (OvR):**  
 One-vs-Rest converts 6-class problem into 6 binary problems. For each class, treat it as positive and all others as negative. Compute TPR/FPR at various thresholds, then macro-average across classes.
@@ -54,7 +54,7 @@ One-vs-Rest converts 6-class problem into 6 binary problems. For each class, tre
 
 ---
 
-## Part C: Precision-Recall Curve Analysis
+## Part C: Precision-Recall Curve Analysis [20]
 
 **1. Why PRC for Imbalanced Classes:**  
 PRC focuses on positive class (Precision = TP/(TP+FP)), while ROC uses FPR which is dominated by large TN in imbalanced data. PRC immediately shows minority class performance degradation.
@@ -73,7 +73,7 @@ PRC focuses on positive class (Precision = TP/(TP+FP)), while ROC uses FPR which
 
 ---
 
-## Part D: Synthesis and Final Recommendation
+## Part D: Synthesis and Final Recommendation [5]
 
 **Rankings Comparison:**
 
@@ -92,8 +92,7 @@ PRC focuses on positive class (Precision = TP/(TP+FP)), while ROC uses FPR which
 
 ---
 
-## Brownie Points
-![Brownie](https://tenor.com/view/brownie-points-gif-8254590584654661830.gif)
+## Brownie Points [5]
 
 **Additional Models:**
 - Random Forest: AUC 0.9903, AP 0.9531
