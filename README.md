@@ -85,7 +85,7 @@ PRC focuses on positive class (Precision = TP/(TP+FP)), while ROC uses FPR which
 
 **Trade-offs:** KNN best at final predictions (F1), SVM best at ranking by confidence (AUC/AP).
 
-**Final Recommendation: Support Vector Machine**
+### Final Recommendation: `Support Vector Machine`
 - Top ROC-AUC (0.9850) and PRC-AP (0.9252)
 - Best precision-recall balance across thresholds
 - Robust to class imbalance
